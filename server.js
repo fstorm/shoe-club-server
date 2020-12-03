@@ -121,4 +121,4 @@ const server = new ApolloServer({
   resolvers,
 });
 
-server.listen(4002).then(() => console.log('Listening on port 4002'));
+server.listen(80).then(() => console.log('Listening on port 80'));
